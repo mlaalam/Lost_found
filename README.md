@@ -1,10 +1,13 @@
 🔍 Lost & Found — Digital Recovery Ecosystem
+
 Lost & Found is a professional Full Stack web application designed for institutions to manage lost and found objects. This platform bridges a high-performance Laravel API with a dynamic React frontend, powered by Redux Toolkit for sophisticated state management.
 
 ---
 
 📌 Main Features
+
 👤 User Side
+
 Secure Authentication: Seamless login/signup experience managed via Redux.
 
 Smart Reporting: Report lost or found items with location and date tracking.
@@ -16,6 +19,7 @@ Personal Dashboard: Users can track and update the status of their own reports.
 ---
 
 🧑‍💼 Admin Side
+
 Centralized Control: A dedicated dashboard for full system moderation.
 
 Content Integrity: Tools to edit, resolve, or delete reports to maintain data accuracy.
@@ -27,6 +31,7 @@ Protected Routes: Administrative features secured by role-based access control.
 🏗️ Technical Architecture
 
 🔙 Backend (Laravel 10)
+
 Laravel Sanctum: Secure session-based authentication using Stateful Cookies.
 
 Role-Based Security: Middleware logic to differentiate between user and admin.
@@ -38,6 +43,7 @@ PHPUnit: Rigorous testing for authentication and object management logic.
 ---
 
 🎨 Frontend (React & Redux Toolkit)
+
 React 18 (Vite): A fast, component-based UI for a responsive user experience.
 
 Redux Toolkit (RTK): * Global Store: Centralized management for user authentication status and item data.
@@ -57,11 +63,13 @@ Axios: Interceptor-based API client configured for secure cookie handling.
 ---
 
 🐳 Infrastructure & DevOps
+
 Docker & Docker Compose: Orchestrates three containers: Laravel (PHP), React (Node), and MySQL (Database).
 
 ---
 
 🗄️ Database
+
 MySQL
 
  => Schema
@@ -73,6 +81,7 @@ MySQL
 ---
 
 📦 Project Deliverables
+
 Complete Source Code (Laravel & React).
 
 Docker Configuration (Dockerfile & docker-compose.yml).
