@@ -1,6 +1,6 @@
 🔍 Lost & Found — Digital Recovery Ecosystem
 Lost & Found is a professional Full Stack web application designed for institutions to manage lost and found objects. This platform bridges a high-performance Laravel API with a dynamic React frontend, powered by Redux Toolkit for sophisticated state management.
-
+---
 📌 Main Features
 👤 User Side
 Secure Authentication: Seamless login/signup experience managed via Redux.
@@ -10,14 +10,14 @@ Smart Reporting: Report lost or found items with location and date tracking.
 Global Search: Advanced filtering by item type and location for quick discovery.
 
 Personal Dashboard: Users can track and update the status of their own reports.
-
+---
 🧑‍💼 Admin Side
 Centralized Control: A dedicated dashboard for full system moderation.
 
 Content Integrity: Tools to edit, resolve, or delete reports to maintain data accuracy.
 
 Protected Routes: Administrative features secured by role-based access control.
-
+---
 🏗️ Technical Architecture
 🔙 Backend (Laravel 11)
 Laravel Sanctum: Secure session-based authentication using Stateful Cookies.
@@ -27,7 +27,7 @@ Role-Based Security: Middleware logic to differentiate between user and admin.
 REST API: Structured endpoints optimized for high-speed data retrieval.
 
 PHPUnit: Rigorous testing for authentication and object management logic.
-
+---
 🎨 Frontend (React & Redux Toolkit)
 React 18 (Vite): A fast, component-based UI for a responsive user experience.
 
@@ -37,20 +37,26 @@ Async Thunks: Handles all API communication with Laravel, managing loading and e
 
 State Persistence: Ensures the user remains logged in across page refreshes using Sanctum sessions.
 
+React Hook Form (useForm): Minimal re-renders and performant validation for declaration forms.
+
+Testing Suite: Vitest and React Testing Library for component and integration testing.
+
 TailwindCSS: Modern utility-first styling for a clean, professional look.
 
 Axios: Interceptor-based API client configured for secure cookie handling.
-
+---
 🐳 Infrastructure & DevOps
 Docker & Docker Compose: Orchestrates three containers: Laravel (PHP), React (Node), and MySQL (Database).
+---
 🗄️ Database
 MySQL
 
  => Schema
+ 
     Users: id, name, email, password, role (user/admin).
     
     Items: id, title, description, type (lost/found), location, date, user_id.
-
+---
 📦 Project Deliverables
 Complete Source Code (Laravel & React).
 
@@ -64,7 +70,9 @@ Migrations & Seeders to initialize testing data.
 
 PHPUnit Test Suite for core functionalities.
 
-
+Vitest and React Testing Library for component and state validation.
+---
+📦 Project Deliverables
 
 Jira :
 
