@@ -25,7 +25,8 @@ Protected Routes: Administrative features secured by role-based access control.
 ---
 
 🏗️ Technical Architecture
-🔙 Backend (Laravel 11)
+
+🔙 Backend (Laravel 10)
 Laravel Sanctum: Secure session-based authentication using Stateful Cookies.
 
 Role-Based Security: Middleware logic to differentiate between user and admin.
