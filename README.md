@@ -100,7 +100,7 @@ Vitest and React Testing Library for component and state validation.
 
 📦 Project Deliverables
 
-Jira :
+Jira : https://laalammouad.atlassian.net/jira/software/c/projects/LF/boards/200/timeline?atlOrigin=eyJpIjoiNzU5N2YwMzkwNTNjNDExZWE4MzQ5MzYzYThkOTI4MmIiLCJwIjoiaiJ9
 
 UML Complet : 
 
