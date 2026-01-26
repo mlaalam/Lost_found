@@ -104,4 +104,8 @@ Jira :
 
 UML Complet : 
 
+  class diagram : https://drive.google.com/file/d/1KaKd9n8Vnx3s9nH9hmnLyqri1Jazu-tc/view?usp=sharing
+
+  use case diagram : https://drive.google.com/file/d/1_NGPCdkj3RfeM2u4RFmxGEL9NbI7_NK2/view?usp=sharing
+
 Maquettes Figma : 
