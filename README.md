@@ -74,9 +74,13 @@ MySQL
 
  => Schema
  
-    Users: id, name, email, password, role (user/admin).
+    Users: id, name, email, phone, password, role (user/admin).
     
-    Items: id, title, description, type (lost/found), location, date, user_id.
+    Items: id, title, description, type (lost/found), address, date, user_id ,category_id , city_id .
+
+    Category: id, title .
+
+    city: id, name .
     
 ---
 
