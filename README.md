@@ -108,4 +108,4 @@ UML Complet :
 
   use case diagram : https://drive.google.com/file/d/1_NGPCdkj3RfeM2u4RFmxGEL9NbI7_NK2/view?usp=sharing
 
-Maquettes Figma : 
+Maquettes Figma : https://www.figma.com/design/6qaYuKhH9hfGBVtkbKOCZ9/Untitled?node-id=24-749&t=CFNZnGcR0nSeRdIs-1
