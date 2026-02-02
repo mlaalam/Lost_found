@@ -1,0 +1,32 @@
+services:
+  laravel:
+    build:
+      context: ./backend
+      target: prod  
+    container_name: laravel_prod
+    restart: always
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=false
+    networks:
+      - found_lost_prod_net
+
+
+  mysql:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: Test
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - db_prod_data:/var/lib/mysql
+    networks:
+      - found_lost_prod_net
+
+networks:
+  found_lost_prod_net:
+
+volumes:
+  db_prod_data:
